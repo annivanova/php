@@ -15,7 +15,7 @@
 	$title=$_POST['Title'];
         echo "<h2>Submit was set</h2>";
  
-        $accounts = mysql_connect("localhost", "root", "");
+        $accounts = mysql_connect("localhost", "", "");
         if (!$accounts) {
             echo "<h2>Failed to connect to DB server: " + mysql_error() + "</h2>";
         }
