@@ -1,6 +1,6 @@
 <?php
 
-$accounts= mysql_connect("localhost", "root", "") or die(mysql_error());
+$accounts= mysql_connect("localhost", "", "") or die(mysql_error());
 
 $sql="CREATE DATABASE bookz";
 
